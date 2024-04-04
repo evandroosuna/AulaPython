@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lógica e Algoritmos - Exercícios</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        <!-- insira seu código aqui -->
+
+        //variaveis 
+
+        let valordiaria = 80;
+        let diaria;
+        let taxa;
+        let ContaFinal;
+
+        // iniciar variaveis
+
+        diaria =0;
+        taxa = 0;
+        ContaFinal = 0;
+
+        //entrada de variaveis 
+
+        diaria = prompt("Informar número de diárias.");
+        diaria=parseInt(diaria);
+
+        // processamento
+
+        if (diaria>15) {
+            ContaFinal= (diaria*valordiaria)+(5.50*diaria)
+            console.log(ContaFinal)
+        }else if (diaria<15) {
+            ContaFinal =(diaria*valordiaria)+(6*diaria)
+            console.log(ContaFinal)
+        }else {
+            ContaFinal = (diaria*valordiaria)+(8*diaria)
+            console.log(ContaFinal)
+        }
+        window.alert ("O valor da Conta Final é "+ ContaFinal)
+
+    </script>
+                
+</body>
+</html>
