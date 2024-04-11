@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lógica e Algoritmos - Exercícios</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      <!-- insira seu código aqui -->
+
+      //variaveis
+
+      var soma = 0;
+      var numero = 0;
+      var resto = 0;
+
+      //processamento
+
+      for (numero = 10; numero < 21; numero++) {
+        resto = numero % 2;
+        if (resto == 0) {
+          soma = soma + numero;
+          document.writeln("<p>");
+          document.writeln("Os pares são " + numero);
+          document.writeln("<p>");
+        }
+      }
+
+      //saida
+
+      document.writeln("<p>");
+      document.writeln("A soma dos pares é: " + soma);
+      document.writeln("<p>");
+    </script>
+  </body>
+</html>

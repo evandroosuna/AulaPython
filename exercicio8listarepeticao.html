@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lógica e Algoritmos - Exercícios</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      <!-- insira seu código aqui -->
+
+      //variaveis
+
+      var altura;
+      var alturaMedia 
+      var idade;
+      var idadeMedia;
+      var somaAltura;
+      var somaIdade
+      var qntIdade;
+      var qntAltura;
+
+      // iniciar variáveis
+
+      altura =0;
+      alturaMedia=0;
+      idade=0;
+      idadeMedia=0;
+      qntIdade=0;
+      qntAltura=0;
+      somaIdade=0;
+      somaAltura=0;
+
+
+      // entrada de dados
+
+      idade=prompt("Qual a idade do aluno?")
+      idade=parseInt(idade)
+
+
+      altura=prompt("Qual a sua altura?")
+      altura=parseFloat(altura)
+
+      // processamento
+      // verifica a idade do aluno
+
+      if (altura < 1.70) {
+        qntIdade = idade +1;
+        somaIdade = somaIdade + idade;
+                    
+      }
+      // verifica a altura do aluno
+      if (idade >= 20) {
+        qntAltura = altura + 1;
+        somaAltura =somaAltura + altura;      
+      }
+
+      // calcular média de idade e altura
+      idadeMedia=somaIdade/qntIdade;
+      alturaMedia=somaAltura/qntAltura;
+
+      // saída
+      alert ("A idade média dos alunos menores que 1.70 é " + (idadeMedia).toFixed(2))
+
+      alert ("A altura média dos alunos com mais de 20 anos é " + (alturaMedia).toFixed(2))
+
+    </script>
+  </body>
+</html>

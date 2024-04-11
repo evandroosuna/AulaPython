@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lógica e Algoritmos - Exercícios</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      <!-- insira seu código aqui -->
+
+      //variaveis
+
+      var nome; 
+      var compra = 0;
+      var desconto = 0;
+      var valorCompra = 0;
+      var valorPagar = 0;
+      var TotalArrecadado = 0;
+
+      TotalArrecadado = 0
+
+      nome = prompt ("informe o nome do cliente") 
+      compra = prompt ("informe o valor da compra do Sr(a)" + nome +" ")
+      valorCompra = parseFloat (valorCompra);
+
+      if (valorCompra >=250) {
+        desconto = valorCompra*0.25 /100 
+      }else desconto = valorCompra*0.15/ 100;
+
+      valorPagar = valorCompra - desconto
+
+      TotalArrecadado = TotalArrecadado + valorPagar 
+
+      document.writeln ("p");
+      document.writeln ("Cliente " + nome)
+      document.writeln ("Compra de " + valorCompra)
+      document.writeln ("Desconto de " + desconto)
+      document.writeln ("A pagar : " + valorPagar)
+      document.writeln ("p")
+
+      document.writeln ("Loja recebeu:" + TotalArrecadado)
+
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lógica e Algoritmos - Exercícios</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      <!-- insira seu código aqui -->
+
+      //variaveis
+
+      var valorDiaria;
+      var qntdiaria;
+      var taxa;
+      var valorTotal;
+
+      // iniciar variáveis
+
+      valorDiaria = 150;
+      qntdiaria = 0;
+      taxa = 0;
+      valorTotal = 0;
+
+      // inserir dados
+
+      qntdiaria = prompt("Quantas diarias são?");
+
+      // processamento
+
+      if (qntdiaria < 15) {
+        taxa = 8 * qntdiaria;
+      }
+      if (qntdiaria = 15) {
+        taxa = 6 * qntdiaria;
+      }
+      if (qntdiaria > 15) {
+        taxa = 5 * qntdiaria;
+      }
+
+      valorTotal = taxa + (qntdiaria * valorDiaria);
+
+      alert("O valor total da conta é: " + valorTotal);
+
+    </script>
+  </body>
+</html>
