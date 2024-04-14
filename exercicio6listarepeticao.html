@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lógica e Algoritmos - Exercícios</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      <!-- insira seu código aqui -->
+
+      // 6. Foi feita uma pesquisa com um grupo de alunos de uma universidade, onde se perguntou para cada aluno, o número de vezes que utilizou o
+      // restaurante da universidade no último mês. Construa um algoritmo que determine:
+
+      // a) O percentual de alunos que utilizaram menos que dez vezes o restaurante;
+      // b) O percentual de alunos que utilizaram entre dez e quinze vezes;
+      // c) O percentual de alunos que utilizaram o restaurante acima de quinze vezes.
+
+      // variáveis
+
+      var xrestaurante;
+      var alunos;
+      var alunos10;
+      var alunos15;
+      var alunos16;
+      var percentualAlunos10;
+      var percentualAlunos15;
+      var percentualAlunos16;
+      var totalAlunos;
+
+      // iniciar variaveis
+
+      xrestaurante = 0;
+      alunos = 0;
+      alunos10 = 0;
+      alunos15 = 0;
+      alunos16 = 0;
+      percentualAlunos10;
+      0;
+      percentualAlunos15;
+      0;
+      percentualAlunos16 = 0;
+      totalAlunos = 5;
+
+      // inserir dados
+
+      // processamento
+
+      for (var aluno = 0; aluno < totalAlunos; aluno++) {
+        xrestaurante = prompt(
+          "Aluno" +
+            (aluno + 1) +
+            ": Quantas vezes você foi no restaurante da universidade no último mês?"
+        );
+        xrestaurante = parseInt(xrestaurante);
+
+        if (xrestaurante < 10) {
+          alunos10++;
+        }
+        if (xrestaurante >= 10 && xrestaurante <= 15) {
+          alunos15++;
+        }
+        if (xrestaurante > 15) {
+          alunos16++;
+        }
+      }
+
+      percentualAlunos10 = (alunos10 / totalAlunos) * 100;
+      percentualAlunos15 = (alunos15 / totalAlunos) * 100;
+      percentualAlunos16 = (alunos16 / totalAlunos) * 100;
+
+      // saida
+      document.writeln(
+        "<p> O percentual de alunos que utilizaram menos que dez vezes o restaurante é: " +
+          percentualAlunos10 +
+          "%</p>"
+      );
+      document.writeln(
+        "<p> O percentual de alunos que utilizaram mais que 10 ou menos que 15 vezes o restaurante é: " +
+          percentualAlunos15 +
+          "% </p>"
+      );
+      document.writeln(
+        "<p> O percentual de alunos que utilizaram mais de 15 vezes o restaurante é: " +
+          percentualAlunos16 +
+          "% </p>"
+      );
+    </script>
+  </body>
+</html>
