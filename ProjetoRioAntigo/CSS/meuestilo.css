@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: double;
+    background-color: rgba(239, 200, 109, 0.668);
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+        
+}
+h4{
+    text-align: center;
+              
+}
+img{
+    justify-content: center;
+}
+.imagens{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+article{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
