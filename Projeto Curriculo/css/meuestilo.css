@@ -1,4 +1,11 @@
 /* BOTÃO DE MENU */
+header{
+  text-align: center;
+}
+
+#menu-horizontal{
+width: inherit;
+}
 
 .dropbtn {
     background-color: #00050a;
