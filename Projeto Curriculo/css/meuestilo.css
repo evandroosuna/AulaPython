@@ -1,7 +1,13 @@
 /* BOTÃO DE MENU */
 header{
   text-align: center;
+  background-color: #09498a;
 }
+
+h1{
+  color: #f5e9e9;
+}
+
 
 #menu-horizontal{
 width: inherit;
@@ -47,4 +53,84 @@ width: inherit;
     background-color: #94bcdd7a;
   }
 
-  
+  .corpo {
+    width: 940px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(91, 133, 211);
+    margin: 0 auto;
+}
+
+.corpo h2 {
+    color: #011b1b;
+}
+
+.titulo-pagina {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #09498a;
+}
+
+.descricao-pagina {
+    text-align: justify;
+    font-family: cursive;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+ 
+.container {
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+
+.titulo-cabecalho-cursos {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    border-bottom: 1px solid black;
+}
+
+.tabela-cursos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela-cursos-th th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #470864;
+    border-bottom: 1px solid #470864;
+}
+
+.tabela-cursos-tr td {
+    padding: 12px 0;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(91, 103, 7);
+    width: 20%;
+    
+}
+
+.tabela-cursos-tr td:first-child {
+  width: 25%;
+}
+
+.tabela-cursos-tr td:nth-child(2) {
+    text-align: center;
+}
+
+.tabela-cursos-tr tr:hover {
+    background-color: #ddd;
+    color: #470864;
+}
+
+ol{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0d2f52;
+}
+ul{
+  text-align: left;
+}
