@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form>
+      <div>
+        <label for="idNome">Nome </label>
+        <input type="text" name="nome" id="idNome" />
+      </div>
+      <div>
+        <label for="idEmail"> E-mail </label>
+        <input type="email" name="Email" id="idEmail" />
+      </div>
+      <div>
+        <label for="idIdade">Idade</label>
+        <input type="number" min="18" max="120" name="Idade" id="idIdade" />
+      </div>
+
+      <div>
+        <label for="idAssunto">Assunto</label>
+        <select name="Assunto" id="idAssunto">
+          <option value="Cadastro">Cadastro</option>
+          <option value="Duvida">Dúvida</option>
+          <option value="Sugestão">Sugestão</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="idMensagem">Mensagem:</label>
+        <br />
+        <textarea name="Mensagem" id="idMensagem" cols="35" rows="5">
+        </textarea>
+      </div>
+
+      <div>
+        <input type="submit" name="Enviar" id="idEnviar" />
+        <input type="reset" name="Limpar" id="idLimpar" />
+      </div>
+    </form>
+  </body>
+</html>
