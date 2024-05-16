@@ -1,0 +1,22 @@
+.divForm {
+    width: 680px;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.etiqueta {
+    font-size: 20px;
+    padding: 8px 0 6px 0;
+}
+
+.divForm input[type=text], .divForm input[type=email], .divForm input[type=number] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #470864;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    box-sizing: border-box;
+}

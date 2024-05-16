@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <link rel="stylesheet" href="css/cssform.css">
 
   <body>
-    <form>
-      <div>
+    <div class="divForm">
+      <div class="etiqueta">
         <label for="idNome">Nome </label>
-        <input type="text" name="nome" id="idNome" />
+        <input type="text" name="nome" id="idNome" placeholder="Digite seu Nome Completo" />
       </div>
-      <div>
+      <div class="etiqueta">
         <label for="idEmail"> E-mail </label>
-        <input type="email" name="Email" id="idEmail" />
+        <input type="email" name="Email" id="idEmail" placeholder="Digite seu e-mail" />
       </div>
-      <div>
+      <div class="etiqueta">
         <label for="idIdade">Idade</label>
-        <input type="number" min="18" max="120" name="Idade" id="idIdade" />
+        <input type="number" min="18" max="120" name="Idade" id="idIdade" placeholder="Digite sua idade" />
       </div>
 
-      <div>
+      <div class="etiqueta">
         <label for="idAssunto">Assunto</label>
         <select name="Assunto" id="idAssunto">
           <option value="Cadastro">Cadastro</option>
@@ -30,10 +31,10 @@
         </select>
       </div>
 
-      <div>
+      <div class="etiqueta">
         <label for="idMensagem">Mensagem:</label>
         <br />
-        <textarea name="Mensagem" id="idMensagem" cols="35" rows="5">
+        <textarea name="Mensagem" id="idMensagem" cols="35" rows="5" placeholder="Digite aqui sua mensagem."></textarea>
         </textarea>
       </div>
 
