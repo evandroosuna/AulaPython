@@ -1,0 +1,97 @@
+header {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: double;
+    background-color: rgba(0, 0, 0, 0.933);
+    color: #fcfbfb;
+}
+
+
+header{
+  background-image: url(https://img.freepik.com/fotos-gratis/ceu-estrelado_1048-11828.jpg);
+  }
+
+header::after {
+  background-image: none;
+}
+
+
+
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: larger;
+        
+}
+h4{
+    text-align: center;
+              
+}
+img{
+    justify-content: center;
+}
+.imagens{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+article{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.dropbtn {
+    background-color: #00050a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fafafa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #94bcdd7a;
+  }
+
+  iframe {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }

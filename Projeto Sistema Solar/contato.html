@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+  </head>
+  <body>
+
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="Index.html">Página Inicial</a>
+            <a href="SistemaSolar.html">Sistema Solar</a>
+            <a href="AstrosPlanetas.html">Astros</a>
+            <a href="Planetas.html">Planetas</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="bibliografia.html">Bibliografia</a>
+
+        </div>
+    </div>
+
+    <header>
+      <img src="imagens/contato.avif" alt="contato" width="350">
+      
+        
+    </header>
+  
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/meucss.css">
+
+  
+
+    <div class="divForm">
+      <div class="etiqueta">
+        <label for="idNome">Nome </label>
+        <input type="text" name="nome" id="idNome" placeholder="Digite seu Nome Completo" />
+      </div>
+      <div class="etiqueta">
+        <label for="idEmail"> E-mail </label>
+        <input type="email" name="Email" id="idEmail" placeholder="Digite seu e-mail" />
+      </div>
+      <div class="etiqueta">
+        <label for="idIdade">Idade</label>
+        <input type="number" min="18" max="120" name="Idade" id="idIdade" placeholder="Digite sua idade" />
+      </div>
+
+      <div class="etiqueta">
+        <label for="idAssunto">Assunto</label>
+        <select name="Assunto" id="idAssunto">
+          <option value="Duvida">Dúvida</option>
+          <option value="Sugestão">Sugestão</option>
+        </select>
+      </div>
+
+      <div class="etiqueta">
+        <label for="idMensagem">Mensagem:</label>
+        <br />
+        <textarea name="Mensagem" id="idMensagem" cols="35" rows="5" placeholder="Digite aqui sua mensagem."></textarea>
+        </textarea>
+      </div>
+
+      <div>
+        <input type="submit" name="Enviar" id="idEnviar" />
+        <input type="reset" name="Limpar" id="idLimpar" />
+      </div>
+
+    </form>
+  </body>
+</html>
