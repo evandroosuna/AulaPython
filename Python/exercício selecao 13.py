@@ -1,4 +1,18 @@
-qTdAlunos, idade, altura = 5,0,0
+Portugues, Matematica, ConhecimentoGerais = 0,0,0
+qTdAlunos=3
+media=0
+PortMedia=0
+MatMedia=0
+ConhecimentoMedia=0
+
+for i in range(qTdAlunos):
+    
+
+
+
+
+###
+ qTdAlunos , idade, altura = 5,0,0
 somaIdade, qtdIdade = 0,0
 somaAltura,qtdAltura= 0,0
 idadeMedia = 0 
