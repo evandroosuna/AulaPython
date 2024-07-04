@@ -28,7 +28,7 @@ def obterCompras():
     arquivo = None
     
     try:
-        arquivo = open('python\\meuArquivo.txt', 'r')
+        arquivo = open('meuArquivo.txt', 'r')
         for linha in arquivo:
             dadosCliente = linha.split(',')
             compra = Compra()
